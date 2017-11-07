@@ -1,0 +1,16 @@
+INSERT INTO gamedb.planet (id, galaxy, system, planet, name, planet_type , temperature) VALUES (1, 1, 1, 1, 'colony1', 0 , -99);
+INSERT INTO gamedb.planet (id, galaxy, system, planet, name, planet_type, temperature) VALUES (2, 1, 2, 1, 'colony2', 1,10);
+INSERT INTO gamedb.planet (id, galaxy, system, planet, name, planet_type, temperature) VALUES (3, 3, 1, 2, 'colony3', 1,5);
+INSERT INTO gamedb.planet (id, galaxy, system, planet, name, planet_type, temperature) VALUES (4, 1, 33, 3, 'colony4', 3,74);
+INSERT INTO gamedb.planet (id, galaxy, system, planet, name, planet_type, temperature) VALUES (5, 1, 2, 2, 'colony5', 4,-51);
+INSERT INTO gamedb.planet (id, galaxy, system, planet, name, planet_type, temperature) VALUES (6, 2, 7, 1, 'colony6', 2,7);
+INSERT INTO gamedb.planet (id, galaxy, system, planet, name, planet_type, temperature) VALUES (7, 3, 1, 1, 'colony7', 1,11);
+INSERT INTO gamedb.planet (id, galaxy, system, planet, name, planet_type, temperature) VALUES (8, 1, 4, 0, 'colony8', 4,-13);
+INSERT INTO gamedb.planet (id, galaxy, system, planet, name, planet_type, temperature) VALUES (9, 2, 5, 3, 'colony9', 2,20);
+INSERT INTO gamedb.planet (id, galaxy, system, planet, name, planet_type, temperature) VALUES (10, 1, 6, 2, 'colony10', 1,-17);
+INSERT INTO gamedb.planet (id, galaxy, system, planet, name, planet_type, temperature) VALUES (11, 3, 22, 0, 'colony11', 0,14);
+INSERT INTO gamedb.building (id, name , level) VALUES (1,'Mine for the extraction of metal' , 0);
+INSERT INTO gamedb.building (id,name , level) VALUES (2,'Mine for the extraction of mineral' , 0);
+INSERT INTO gamedb.building (id,name , level) VALUES (3,'Mine for the extraction of gaz' , 0);
+INSERT INTO gamedb.ship ( name , attack, speed, size , armor_type, fuel_costs, capacity) VALUES ( 'CRUISER' , 55.5, 200 , 1 , 1, 52 , 150);
+INSERT INTO gamedb.ship ( name , attack, speed, size, armor_type, fuel_costs, capacity) VALUES ( 'SUPERNOVA' , 1200.2, 12, 2 , 2 , 800, 1000000);
